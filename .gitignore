@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# built shim (rebuild with gpu_compat/build.sh)
+gpu_compat/libcuda_compat.so
+
+# captured debug logs
+*.log
